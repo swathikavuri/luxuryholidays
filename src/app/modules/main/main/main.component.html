@@ -1,0 +1,526 @@
+<div id="content">
+  <div class="main-slider">
+    <mat-carousel class="mobile-slider" timings="250ms ease-in" [autoplay]="true" interval="5000" color="#fff"
+      minWidth="440px" minWidth="100%" proportion="45" slides="3" [loop]="true" [hideArrows]="false"
+      [hideIndicators]="false" [useKeyboard]="true" [useMouseWheel]="false" orientation="ltr">
+      <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slides; let i = index" [image]="slide.image"
+        color="#fff" overlayColor="#00000010" indicatorsColor="#fff" [hideOverlay]="false"></mat-carousel-slide>
+    </mat-carousel>
+    <div class="singlelinemain">
+      <div class="singleline">
+        <div class="slider-text">Luxury Holidays At Your Fingertips!</div>
+      </div>
+    </div>
+    <div class="searchlinemain">
+      <div class="searchline">
+        <div class="search-tours-wrap">
+          <div class="search-tours-content">
+            <div data-tours-cat="tab-cat-1" class="tours-container active">
+              <div class="tours-box">
+                <div class="tours-search">
+                  <form method="post" class="form search divider-skew">
+                    <div class="search-wrap">
+                      <input type="text" placeholder="Type to Search" class="form-control search-field"><i
+                        class="search-icon"></i>
+                    </div>
+                  </form>
+                  <div class="selection-box divider-skew"><i class="flaticon-suntour-adult box-icon"></i>
+                    <select class="form-control">
+                      <option>Destination</option>
+                      <option>India</option>
+                      <option>Maldives</option>
+                      <option>Arabia</option>
+                      <option>Mexico</option>
+                    </select>
+                  </div>
+                  <div class="selection-box"><i class="flaticon-suntour-children box-icon"></i>
+                    <select class="form-control">
+                      <option>Price</option>
+                      <option>£500 - £1500</option>
+                      <option>£1500 - £2500</option>
+                      <option>£2500 - £3500</option>
+                      <option>£3500 - £5000</option>
+                    </select>
+                  </div>
+                  <div class="button-search">Search</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- search tours form-->
+  <!-- <div class="search-tours-form">
+    <div class="">
+      <div class="slider-text">Luxury Holidays At Your Fingertips!</div>
+    </div>
+    <div class="">
+      <div class="search-tours-wrap">
+        <div class="search-tours-content">
+          <div data-tours-cat="tab-cat-1" class="tours-container active">
+            <div class="tours-box">
+              <div class="tours-search">
+                <form method="post" class="form search divider-skew">
+                  <div class="search-wrap">
+                    <input type="text" placeholder="Type to Search" class="form-control search-field"><i
+                      class="search-icon"></i>
+                  </div>
+                </form>
+                <div class="selection-box divider-skew"><i class="flaticon-suntour-adult box-icon"></i>
+                  <select class="form-control">
+                    <option>Destination</option>
+                    <option>India</option>
+                    <option>Maldives</option>
+                    <option>Arabia</option>
+                    <option>Mexico</option>
+                  </select>
+                </div>
+                <div class="selection-box"><i class="flaticon-suntour-children box-icon"></i>
+                  <select class="form-control">
+                    <option>Price</option>
+                    <option>£500 - £1500</option>
+                    <option>£1500 - £2500</option>
+                    <option>£2500 - £3500</option>
+                    <option>£3500 - £5000</option>
+                  </select>
+                </div>
+                <div class="button-search">Search</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="container">
+    <div class="content">
+      <h2 class="sec-heading">Top Destinations</h2> 
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/indian-ocean.jpg" width="100%" alt="indian ocean">
+            <div class="destination-text">Indian Ocean</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/saudi.jpg" width="100%" alt="Arabia">
+            <div class="destination-text">Arabia</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/Indian-sub-continent.jpg" width="100%" alt="Indian Sub Continent">
+            <div class="destination-text">Indian Sub Continent</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/mexico.jpg" width="100%" alt="Mexico">
+            <div class="destination-text">Mexico</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/south-africa.jpg" width="100%" alt="South Africa">
+            <div class="destination-text">South Africa</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/far-east.jpg" width="100%" alt="Far East">
+            <div class="destination-text">Far East</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/usa.jpg" width="100%" alt="USA">
+            <div class="destination-text">USA</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="destination-tile">
+            <img src="../../../../assets/images/home_page/mexico.jpg" width="100%" alt="Mexico">
+            <div class="destination-text">Mexico</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="who-we-are">
+      <h2 class="sec-heading">Who We Are</h2> 
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h2 class="left-heading">Our Promise to You</h2>
+          <div class="main-list">
+            <p class="list-text"><img src="../../../../assets/images/list-icon.svg" class="list-icon"> Tour operating
+              for
+              over 40 years</p>
+            <p class="list-text"><img src="../../../../assets/images/list-icon.svg" class="list-icon"> Hassle free
+              Service! Personalised service where we source the deals for you</p>
+            <p class="list-text"><img src="../../../../assets/images/list-icon.svg" class="list-icon"> Offering over
+              400
+              holidays worldwide catered for all budgets</p>
+            <p class="list-text"><img src="../../../../assets/images/list-icon.svg" class="list-icon"> Destination
+              specialists guaranteed to answer your needs swiftly</p>
+            <p class="list-text"><img src="../../../../assets/images/list-icon.svg" class="list-icon"> A family owned
+              Independent business</p>
+            <p class="list-text"><img src="../../../../assets/images/list-icon.svg" class="list-icon"> Price Match
+              Guarantee</p>
+            <p class="list-text"><img src="../../../../assets/images/list-icon.svg" class="list-icon"> Low deposits
+              and
+              flexible payment policies</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="left-heading">Your Booking is Secure</h2>
+          <div class="main-list">
+            <p class="list-text">We are ABTA licensed and ATOL bonded to protect your booking.</p>
+            <img src="../../../../assets/images/abta_black.png">
+            <p class="list-text">LuxuryHolidayDirect.com is a trading brand within SUNSET TRAVEL LTD. The Company has
+              been
+              trading for over a quarter of a century.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offers-section">
+      <h2 class="sec-heading">Offers & Deals</h2>
+      <carousel [cellsToShow]="4" [height]="500" [objectFit]="'contain'" [cellWidth]="'100%'" [arrowsOutside]="false"
+        [autoplay]="false" [loop]="true">
+        <div class="carousel-cell">
+          <img src="../../../../assets/images/home_page/offer-1.svg">
+          <div class="offer-text">
+            <h5 class="white-font">Kanuhura Maldives</h5>
+            <div class="row">
+              <div class="col-md-8">
+                <img src="../../../../assets/images/home_page/offer-calender.svg" style="width: 16px"> 01 Jun 22 - 30 Sep 22
+              </div>
+              <div class="col-md-4">
+                <img src="../../../../assets/images/home_page/white_5star.svg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-7">
+                <img src="../../../../assets/images/home_page/offer-pound.svg" style="width: 16px"> <span class="offer-price"> 1055<sub>pp</sub></span>
+              </div>
+              <div class="col-md-5">
+                <img src="../../../../assets/images/home_page/offer-days.svg" style="width: 16px;"> 7 Nights
+              </div>
+            </div>
+            <div class="row">
+              <p class="center-text"><img src="../../../../assets/images/home_page/offer-downarrow.svg" style="width: 36px;"></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="../../../../assets/images/home_page/offer-2.svg">
+          <div class="offer-text">
+            <h5 class="white-font">Kanuhura Maldives</h5>
+            <div class="row">
+              <div class="col-md-8">
+                <img src="../../../../assets/images/home_page/offer-calender.svg" style="width: 16px"> 01 Jun 22 - 30 Sep 22
+              </div>
+              <div class="col-md-4">
+                <img src="../../../../assets/images/home_page/white_5star.svg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-7">
+                <img src="../../../../assets/images/home_page/offer-pound.svg" style="width: 16px"> <span class="offer-price"> 1055<sub>pp</sub></span>
+              </div>
+              <div class="col-md-5">
+                <img src="../../../../assets/images/home_page/offer-days.svg" style="width: 16px;"> 7 Nights
+              </div>
+            </div>
+            <div class="row">
+              <p class="center-text"><img src="../../../../assets/images/home_page/offer-downarrow.svg" style="width: 36px;"></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="../../../../assets/images/home_page/offer-3.svg">
+          <div class="offer-text">
+            <h5 class="white-font">Kanuhura Maldives</h5>
+            <div class="row">
+              <div class="col-md-8">
+                <img src="../../../../assets/images/home_page/offer-calender.svg" style="width: 16px"> 01 Jun 22 - 30 Sep 22
+              </div>
+              <div class="col-md-4">
+                <img src="../../../../assets/images/home_page/white_5star.svg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-7">
+                <img src="../../../../assets/images/home_page/offer-pound.svg" style="width: 16px"> <span class="offer-price"> 1055<sub>pp</sub></span>
+              </div>
+              <div class="col-md-5">
+                <img src="../../../../assets/images/home_page/offer-days.svg" style="width: 16px;"> 7 Nights
+              </div>
+            </div>
+            <div class="row">
+              <p class="center-text"><img src="../../../../assets/images/home_page/offer-downarrow.svg" style="width: 36px;"></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="../../../../assets/images/home_page/offer-4.svg">
+          <div class="offer-text">
+            <h5 class="white-font">Kanuhura Maldives</h5>
+            <div class="row">
+              <div class="col-md-8">
+                <img src="../../../../assets/images/home_page/offer-calender.svg" style="width: 16px"> 01 Jun 22 - 30 Sep 22
+              </div>
+              <div class="col-md-4">
+                <img src="../../../../assets/images/home_page/white_5star.svg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-7">
+                <img src="../../../../assets/images/home_page/offer-pound.svg" style="width: 16px"> <span class="offer-price"> 1055<sub>pp</sub></span>
+              </div>
+              <div class="col-md-5">
+                <img src="../../../../assets/images/home_page/offer-days.svg" style="width: 16px;"> 7 Nights
+              </div>
+            </div>
+            <div class="row">
+              <p class="center-text"><img src="../../../../assets/images/home_page/offer-downarrow.svg" style="width: 36px;"></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="../../../../assets/images/home_page/offer-2.svg">
+          <div class="offer-text">
+            <h5 class="white-font">Kanuhura Maldives</h5>
+            <div class="row">
+              <div class="col-md-8">
+                <img src="../../../../assets/images/home_page/offer-calender.svg" style="width: 16px"> 01 Jun 22 - 30 Sep 22
+              </div>
+              <div class="col-md-4">
+                <img src="../../../../assets/images/home_page/white_5star.svg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-7">
+                <img src="../../../../assets/images/home_page/offer-pound.svg" style="width: 16px"> <span class="offer-price"> 1055<sub>pp</sub></span>
+              </div>
+              <div class="col-md-5">
+                <img src="../../../../assets/images/home_page/offer-days.svg" style="width: 16px;"> 7 Nights
+              </div>
+            </div>
+            <div class="row">
+              <p class="center-text"><img src="../../../../assets/images/home_page/offer-downarrow.svg" style="width: 36px;"></p>
+            </div>
+          </div>
+        </div> 
+      </carousel>
+    </div>
+    <div class="home-contact">
+      <div class="row">
+        <div class="col-12 col-md-6 mt-2">
+          <div class="">
+            <button mat-button (click)="openDialog()" class="contact-blue">
+              <p class="chat-text1">Speak to one of our travel experts</p>
+              <h4 class="chat-num">020 8774 7298</h4>
+            </button>                
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mt-2">
+          <div class="">
+            <button mat-button (click)="openDialog()" class="contact-yellow">
+              <p class="chat-text1">Our travel Concierge team are here to help</p>
+              <h4 class="chat-num">020 8774 7298</h4>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-chat">  
+      <div class="row">
+        <div class="col-md-6 mt-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="ms-4" src="../../../../assets/images/home_page/live-chat.svg">
+            </div>
+            <div class="col-md-8">
+              <div class="live-chat-info ms-4">
+                <h4 class="white-font chat-text">Live Chat - 7/7 days</h4>
+                <p class="white-font">Our travel experts are here to help</p>
+                <button type="button" class="btn-chat">Click Here to Chat!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="ms-4" src="../../../../assets/images/home_page/request-quote.svg">
+            </div>
+            <div class="col-md-8">
+              <div class="live-chat-info ms-4">
+                <h4 class="white-font chat-text">Request a Quote / Visit in-person</h4>
+                <p class="white-font">Fill out our 'Request Quote' form and an agent will contact you.</p>
+                <button type="button" (click)="openQuote(Quote)" class="btn-chat">Get A Quote Today</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-reviews"> 
+      <div class="row">
+        <div class="col-md-3 mt-4">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="../../../../assets/images/home_page/reviews.svg">
+              <p class="mb-2"><b>4.9</b>/5</p>
+              <p class="mb-2">Independent Service Rating based on <b>9431</b> verified reviews.</p>
+              <img src="../../../../assets/images/home_page/feeto_logo.svg">
+            </div>
+            <div class="col-md-4">
+              <img src="../../../../assets/images/home_page/platinum_trusted.svg" width="100%">
+            </div>
+          </div>
+          <a class="reviews-link">Read All Reviews</a>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="all-reviews">
+            <img src="../../../../assets/images/home_page/reviews.svg">
+            <p class="mb-2"><b>" Luxury hotels 5 stars "</b></p>
+            <p class="mb-2 review-text">Devangi is professional and fast. Provides great customer service. Will get
+              back to you on options very quickly,
+              where she has knowledge of a place she’s been too she will share.</p>
+            <p class="mb-2 review-name">Mr Dennis Clarke - Saturday, May 29, 2021</p>
+          </div>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="all-reviews">
+            <img src="../../../../assets/images/home_page/reviews.svg">
+            <p class="mb-2"><b>" Luxury hotels 5 stars "</b></p>
+            <p class="mb-2 review-text">Devangi is professional and fast. Provides great customer service. Will get
+              back to you on options very quickly,
+              where she has knowledge of a place she’s been too she will share.</p>
+            <p class="mb-2 review-name">Mr Dennis Clarke - Saturday, May 29, 2021</p>
+          </div>
+        </div>
+        <div class="col-md-3 mt-4">
+          <div class="all-reviews">
+            <img src="../../../../assets/images/home_page/reviews.svg">
+            <p class="mb-2"><b>" Luxury hotels 5 stars "</b></p>
+            <p class="mb-2 review-text">Devangi is professional and fast. Provides great customer service. Will get
+              back to you on options very quickly,
+              where she has knowledge of a place she’s been too she will share.</p>
+            <p class="mb-2 review-name">Mr Dennis Clarke - Saturday, May 29, 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <ng-template #Quote let-modal class="Quote">
+    <div style="background-color: #EFF3F6;">
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true"><img src="assets/note_cancel.svg" /></span>
+      </button>
+    </div>
+    <div class="quotepopup">
+      <table class="table table-borderless">
+        <tr>
+          <td>
+            <h3 class="quote-heading">REQUEST QUOTE</h3>
+          </td>
+          <td>
+            <!-- <h3 class="quote-heading">REQUEST QUOTE</h3> -->
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p class="quote-para">Please enter your details below and one of our Travel Expert will contact you to discuss about your holiday</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="selecttd">
+            <span class="label">Departure Airport</span>
+            <select name="deptairport" id="deptairport" class="selectinput">
+              <option selected>Select Dept. Airport</option>
+            </select>
+          </td>
+          <td class="selecttd">
+            <span class="label">Departure Date</span>
+            <select name="deptdate" id="deptdate" class="selectinput">
+              <option selected>14/06/2021</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="label">No. of Nights</span>
+            <select name="deptairport" id="deptairport" class="selectinput">
+              <option selected>Select No. of Nights</option>
+            </select>
+          </td>
+          <td>
+            <span class="label">No.of Rooms</span>
+            <select name="deptdate" id="deptdate" class="selectinput">
+              <option selected>2</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="label">Board Basics</span>
+            <select name="deptairport" id="deptairport" class="selectinput">
+              <option selected>Select Board Basics</option>
+            </select>
+          </td>
+          <td rowspan="2">
+            <span class="label">Message</span>
+            <textarea class="selecttextarea" placeholder="Enter Message"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="label">Budget</span>
+            <select name="deptairport" id="deptairport" class="selectinput">
+              <option selected>Select Budget</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="label">First Name</span>
+            <input type="text" class="selectinput" placeholder="Ener First Name">
+          </td>
+          <td>
+            <span class="label">Last Name</span>
+            <input type="text" class="selectinput" placeholder="Ener Last Name">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="label">Email ID</span>
+            <input type="text" class="selectinput" placeholder="Ener Email ID">
+          </td>
+          <td>
+            <span class="label">Phone Number</span>
+            <input type="text" class="selectinput" placeholder="Ener Phone Number">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox">
+            <span class="quote-para">I would like to receive the luxuryholidaysdirect.com newsletter & other relevant communications.</span>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button class="quotebutton">Request a Quote</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </ng-template>

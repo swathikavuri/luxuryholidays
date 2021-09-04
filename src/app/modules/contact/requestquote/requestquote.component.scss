@@ -1,0 +1,71 @@
+
+.heading {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: left;
+  }
+.heading::after {
+    content: "";
+    border-bottom: 4px solid #319197;
+    width: 13%;
+    display: block; 
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+  .quotepopup {
+    background-color: #EFF3F6;
+    padding: 15px;
+    .quote-heading {
+      font-size: 27px;
+      border-bottom: 3px solid #099097;
+      width: 210px;
+    }
+    .quote-para {
+      font-size: 17px;
+    }
+    .table td {
+      padding: 0px !important;
+    }
+    .table .label {
+      padding: 0px !important;
+    }
+    .selectinput {
+      width: 285px;
+      border: none;
+      background-color: white;
+      box-shadow: 0px 2px 2px #00000029;
+      height: 40px;
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    .selecttextarea {
+      border: none;
+      background-color: white;
+      box-shadow: 0px 2px 2px #00000029;
+      height: 114px;
+      width: 285px;
+    }
+    .table h3 {
+      padding: 0px !important;
+    }
+    .table p {
+      padding: 0px !important;
+    }
+    .selecttd {
+      padding-bottom: 5px;
+    }
+    .quotebutton {
+      border-radius: 3px;
+      width: 100%;
+      border: none;
+      background-color: #099097;
+      color: white;
+      margin-top: 10px;
+    }
+  }

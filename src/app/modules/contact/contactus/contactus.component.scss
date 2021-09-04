@@ -1,0 +1,59 @@
+.heading {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: left;
+  }
+.heading::after {
+    content: "";
+    border-bottom: 4px solid #319197;
+    width: 7%;
+    display: block; 
+}
+
+p {
+  font-size: 18px;
+}
+.backgroundcolor {
+  background-color: #EBF6F8;
+}
+.colbackground {
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  height: 210px;
+  width: 400px;
+}
+
+.main {
+  display: flex;
+}
+.icon {
+  padding-right: 15px;
+}
+.div_img {
+  width: 30px;
+  height: 30px;
+}
+.sub-heading {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: left;
+}
+.sub-heading::after {
+  content: "";
+  border-bottom: 4px solid #319197;
+  width: 25%;
+  display: block; 
+}
+.livechat {
+  border-radius: 3px;
+  width: 200px;
+  font-size: 18px;
+  height: 40px;
+  border: none;
+  background-color: #099097;
+  color: white;
+  margin-top: 10px;
+}

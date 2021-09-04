@@ -1,0 +1,86 @@
+<mat-toolbar class="top-toolbar">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="social-icons">
+          <img src="/assets/images/home_page/facebook.svg" class="socialicons" alt="LHD slider"> <span class="mr-1"></span>
+          <img src="/assets/images/home_page/instagram.svg" class="socialicons" alt="LHD slider"><span class="mr-1"></span>
+          <img src="/assets/images/home_page/linkedin.svg" class="socialicons" alt="LHD slider"><span class="mr-1"></span>
+          <img src="/assets/images/home_page/twitter.svg" class="socialicons" alt="LHD slider">
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="contact-info float-right">
+          <div class="row">
+            <div class="col-md-8 hidden-xs">
+              <mat-icon>email</mat-icon> <span class="contact-text">enquiries@luxuryholidaysdirect.com</span>
+            </div>
+            <div class="col-md-4">
+              <mat-icon>phone</mat-icon><span class="contact-text">020 8774 7298</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-toolbar>
+<div class="main-menu">
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <mat-toolbar>
+          <span><img class="logo" src="../../../assets/images/home_page/Luxury-logo.png"></span>
+          <span class="main-spacer"></span>
+          <div mat-button class="menu-text" routerLink="/home">Home</div>
+          <div mat-button class="menu-text" [matMenuTriggerFor]="belowMenu">Destinations <mat-icon class="dropdown-icon">
+              keyboard_arrow_down</mat-icon> </div>
+          <mat-menu #belowMenu="matMenu" yPosition="below">
+            <button mat-menu-item routerLink="destinations/list">India</button>
+            <button mat-menu-item>United Kingdom</button>
+            <button mat-menu-item>United States of America</button>
+          </mat-menu>
+          <div mat-button class="menu-text" routerLink="offers/list">Offers & Deals</div>
+          <div mat-button class="menu-text" routerLink="weddings/list">Weddings & Honeymoons</div>
+          <div mat-button class="menu-text" routerLink="tours/list">Tours</div>
+          <div mat-button class="menu-text"  routerLink="/blogs/list">Blog</div>
+        </mat-toolbar>
+      </div>
+    </div>
+  </div> -->
+
+  <a class="ms-2" href="#"><img class="logo" src="../../../assets/images/home_page/Luxury-logo.png"></a>
+  <nav class="navbar navbar-expand-lg navbar-light float-right">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="menu-text" aria-current="page" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="menu-text dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destinations
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="destinations/list">India</a></li>
+            <li><a class="dropdown-item" href="#">United Kingdom</a></li>
+            <li><a class="dropdown-item" href="#">United States of America</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="menu-text" routerLink="offers/list">Offers & Deals</a>
+        </li>
+        <li class="nav-item">
+          <a class="menu-text" routerLink="weddings/list">Weddings & Honeymoons</a>
+        </li>
+        <li class="nav-item">
+          <a class="menu-text" routerLink="tours/list">Tours</a>
+        </li>
+        <li class="nav-item">
+          <a class="menu-text" routerLink="/blogs/list">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

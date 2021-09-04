@@ -1,0 +1,113 @@
+#content {
+    margin-top: 0rem;
+  } 
+  .content {
+    background: #fff;
+  }
+  .content > mat-card {
+    width: 200px;
+  }
+  .contact-blue {
+    background: #02ACCD;
+    padding: 3% !important;
+    color: #fff;
+    width: 100%;
+    text-align: center !important;
+    border-radius: 3px !important;
+}
+.contact-yellow {
+  background:#FCBD04;
+  padding: 3% !important;
+  color: #fff;
+  width: 100%;
+  text-align: center !important;
+  border-radius: 3px !important;
+}
+  .mat-card-content {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .typography-content__wrapper {
+    display: flex;
+    padding: 0 8px;
+  }
+  .top-destinations{
+    display: flex;
+    padding: 0 8px;
+    margin-bottom: 5px;
+  }
+  .close {
+    margin-right: 7px;
+    margin-top: 4px;
+  }
+.quotepopup {
+  background-color: #EFF3F6;
+  padding: 15px;
+  .quote-heading {
+    font-size: 27px;
+    border-bottom: 3px solid #099097;
+    width: 210px;
+  }
+  .quote-para {
+    font-size: 17px;
+  }
+  .table td {
+    padding: 0px !important;
+  }
+  .table .label {
+    padding: 0px !important;
+  }
+  .selectinput {
+    width: 220px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 2px 2px #00000029;
+    height: 40px;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  .selecttextarea {
+    border: none;
+    background-color: white;
+    box-shadow: 0px 2px 2px #00000029;
+    height: 114px;
+    width: 220px;
+  }
+  .table h3 {
+    padding: 0px !important;
+  }
+  .table p {
+    padding: 0px !important;
+  }
+  .selecttd {
+    padding-bottom: 5px;
+  }
+  .quotebutton {
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    background-color: #099097;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+.singlelinemain {
+  margin-block-start: -340px;
+  margin-bottom: 160px;
+}
+.singleline {
+  text-align: center;
+  width: 50%;
+  background-color: black;
+  opacity: 0.4;
+  margin: auto;
+}
+.searchlinemain {
+  margin-block-end: 120px;
+}
+.searchline {
+  width: 65%;
+  margin: auto;
+}
